@@ -178,7 +178,7 @@ void mouseWheel(MouseEvent e){
 
 void recalculate(){
   int f=wheelCount;
-  println(f);
+  //println(f);
   int m=int(map(drawingCoordinates.size(),0,1000,1,10));
   f=f*m;
   sliderXValue+=f;
